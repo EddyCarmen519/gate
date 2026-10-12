@@ -85,15 +85,15 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "linear.app:443,securecircle.com:443,www.udacity.com:443,newsroom.avalara.com:443,login.rockwellautomation.com:443,academy.7shifts.com:443,cdn.555586.xyz:443,www.blibli.com:443,www.trumpinternationalrealty.com:443,www.broadcom.com:443,assets.bizclikmedia.net:443,codexradar.com:443,stores.staples.com:443,form.assaabloy.com:443,pubs.acs.org:443,"
-        "img.imgdd.com:443,www.visa.com.sg:443,versantstore.pearson.com:443,rargb.to:443,w3.org:443,zoominfo.com:443,registry.yarnpkg.com:443,www.copilot.com:443,tinyurl.com:443,pttime.org:443,icook.tw:443,wallpaperflare.com:443,cf.777791.xyz:443,skk.moe:443,cf.877774.xyz:443,saas.sin.fan:443,support.communilink.net:443,cnllm.com:443,www.visa.com.tw:443,cloudflareip.mofashi.ltd:443,"
-        ",pt.btschool.club:443,www.gov.il:443,upfile.live:443,hitcon.org:443,hentaiverse.org:443,www.botafogo.com.br:443,cdn.ddeed.de:443,www.dentoncounty.gov:443,cf.nyanya.moe:443,apiscout.reflexapi.net:443,hostinger.com:443,cdnjs.loli.net:443,01cctv.com:443,www.dg22.top:443,flightradar24.com:443,help.kolet.com:443,cdn.7zz.cn:443,nodejs.org:443,ncc.gov.ng:443,absen.com:443,mail.notion.com:443,img.css.sd:443,kick.com:443,icook.hk:443,vueframework.com:443,dbip.com:443,japan.com:443,lose.edu.eu.org:443,aimagazine.com:443,emos.prlo.de:443,saas.072159.xyz:443,www.postman.com:443,esm.run:443,js.org:443,static.elfsight.com:443,www.bangbenjiaju.com:443,zmxf.qzz.io:443,cdn.jwcmdr.top:443,hashi.sbs:443,dash.domain.digitalplat.org:443",
+        ""
+        ""
+        "",
     ).split(",")
     if h.strip()
 ]
 
 # 优选 API 地址配置 (支持逗号分隔多个，可配置在 GitHub Action Secret / Env 中)
-OPTIMAL_API = os.environ.get("OPTIMAL_API", "https://cf.090227.xyz/cmcc?ips=20&port=443,https://warp-masque-bestip.pages.dev/cmcc?ips=8&port=443,https://randomip.pages.dev/cmcc?ips=8&port=443")
+OPTIMAL_API = os.environ.get("OPTIMAL_API", "https://cf.090227.xyz/cmcc?ips=20&port=443,https://warp-masque-bestip.pages.dev/cmcc?ips=20&port=443,https://randomip.pages.dev/cmcc?ips=20&port=443")
 
 NODES_URL = os.environ.get("NODES_URL", "https://EddyCarmen519.github.io/gate/nodes.txt")
 
